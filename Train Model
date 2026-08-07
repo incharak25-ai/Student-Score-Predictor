@@ -1,0 +1,7 @@
+X = df[["Hours"]]
+
+y = df["Score"]
+
+model = LinearRegression()
+
+model.fit(X, y)
