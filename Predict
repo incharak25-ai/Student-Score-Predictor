@@ -1,0 +1,5 @@
+hours = float(input("Enter study hours: "))
+
+prediction = model.predict([[hours]])
+
+print("Predicted Score:", prediction[0])
