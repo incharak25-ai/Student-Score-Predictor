@@ -1,0 +1,9 @@
+plt.scatter(df["Hours"], df["Score"])
+
+plt.xlabel("Study Hours")
+
+plt.ylabel("Score")
+
+plt.title("Hours vs Score")
+
+plt.show()
